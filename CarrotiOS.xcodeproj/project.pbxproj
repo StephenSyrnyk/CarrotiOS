@@ -13,6 +13,8 @@
 		EE9BED6722566FD80061B17C /* CarrotiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE9BED6522566FD80061B17C /* CarrotiOS.xcdatamodeld */; };
 		EE9BED6922566FDF0061B17C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9BED6822566FDF0061B17C /* Assets.xcassets */; };
 		EE9BED6C22566FDF0061B17C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9BED6A22566FDF0061B17C /* LaunchScreen.storyboard */; };
+		EE9BED75225675230061B17C /* CarrotSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BED74225675230061B17C /* CarrotSessionViewController.swift */; };
+		EE9BED772256AD520061B17C /* DatabaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BED762256AD520061B17C /* DatabaseTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EE9BED6822566FDF0061B17C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE9BED6B22566FDF0061B17C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE9BED6D22566FDF0061B17C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9BED74225675230061B17C /* CarrotSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotSessionViewController.swift; sourceTree = "<group>"; };
+		EE9BED762256AD520061B17C /* DatabaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,8 @@
 		EE9BED5D22566FD80061B17C /* CarrotiOS */ = {
 			isa = PBXGroup;
 			children = (
+				EE9BED73225674DD0061B17C /* Controllers */,
 				EE9BED5E22566FD80061B17C /* AppDelegate.swift */,
-				EE9BED6022566FD80061B17C /* ViewController.swift */,
 				EE9BED6222566FD80061B17C /* Main.storyboard */,
 				EE9BED6822566FDF0061B17C /* Assets.xcassets */,
 				EE9BED6A22566FDF0061B17C /* LaunchScreen.storyboard */,
@@ -65,6 +69,16 @@
 				EE9BED6522566FD80061B17C /* CarrotiOS.xcdatamodeld */,
 			);
 			path = CarrotiOS;
+			sourceTree = "<group>";
+		};
+		EE9BED73225674DD0061B17C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BED6022566FD80061B17C /* ViewController.swift */,
+				EE9BED74225675230061B17C /* CarrotSessionViewController.swift */,
+				EE9BED762256AD520061B17C /* DatabaseTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				EE9BED6122566FD80061B17C /* ViewController.swift in Sources */,
 				EE9BED5F22566FD80061B17C /* AppDelegate.swift in Sources */,
+				EE9BED75225675230061B17C /* CarrotSessionViewController.swift in Sources */,
+				EE9BED772256AD520061B17C /* DatabaseTableViewController.swift in Sources */,
 				EE9BED6722566FD80061B17C /* CarrotiOS.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
